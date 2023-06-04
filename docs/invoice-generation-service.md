@@ -1,5 +1,17 @@
 # Invoice Generation Service
 ***
+## Table of Contents
+***
+- [Description](#description)
+- [Requirements](#requirements)
+  - [Functional Requirements](#functional-requirements)
+  - [Non Functional Requirements](#non-functional-requirements)
+- [Design](#design)
+  - [Tech Stack](#tech-stack)
+  - [Development Phases](#development-phases)
+## Description
+***
+The Invoice Generation Tool is a powerful software solution designed to streamline and automate the entire process of generating, dispatching, and storing invoices for tutoring sessions. With this tool, tutors and educational organizations can efficiently manage their billing operations, saving valuable time and ensuring accuracy in financial transactions. It also acts as a receipt for students to keep track of their payments on the website.
 ## Requirements
 ***
 ### Functional Requirements
@@ -23,3 +35,8 @@
 * gRPC: communication between Invoice Generation Service and other microservices.
 * pdfcpu: go library to generate PDF documents.
 * Docker: containerization of microservice.
+
+### Development Phases
+- [ ] Hardcode inputs and create pdf locally
+- [ ] Save pdf to cloud storage
+- [ ] Integrate gRPC and stream in inputs and outputs
